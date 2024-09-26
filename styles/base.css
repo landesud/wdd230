@@ -93,6 +93,9 @@ main h2 {
   list-style: none;
   margin: 2rem;
 }
+.card li {
+  margin: 2rem 0;
+}
 .card p {
   margin: 2rem;
 }
