@@ -33,7 +33,16 @@
       <img src="images/profile-pic-128x128.jpg" alt="Profile pic">
       <h1>Emmanuel Landeros</h1>
     </header>
-    <nav>
+    <div id="menu">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="menu-icon menu-icon-open opened">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="menu-icon menu-icon-close">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+    </svg>
+    
+    </div>
+    <nav class="navigation">      
       <a href="#">Home</a><a href="lesson03/chamber-site-plan.html">Site Plan</a
       ><a href="chamber/">Chamber</a
       ><a target="_blank" href="https://byui.edu/">BYU-Idaho</a
@@ -63,11 +72,14 @@
         <p><strong>Page Visits:</strong> Unknown</p>
       </section>
     </main>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60116.9579953767!2d-99.05159107395369!3d19.656780907617424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ed894b6e9061%3A0x2083feb30e41f987!2sOjo%20de%20Agua%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1727924077094!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <footer>
       <!--<img width="48" height="48" src="images/mexico-icon.png" alt="mexico" />-->
       <p id="footer-copy">&copy; Year - Name - Country - Flag</p>
       <p id="lastModified">9/20/2024</p>
+
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/menu-icon.js"></script>
   </body>
 </html>

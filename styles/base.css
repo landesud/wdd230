@@ -56,6 +56,7 @@ nav a:visited {
   background-color: var(--blue);
   color: var(--gray);
   transition: all 100ms;
+  white-space: nowrap;
 }
 nav a:hover,
 nav a:active {
@@ -115,4 +116,31 @@ footer p {
 }
 #lastModified {
   color: var(--orange);
+}
+
+#menu {
+  display: block;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.menu-icon {
+  display: none;
+  width: 24px;
+  height: 24px;
+  border: none;
+  margin: 1rem auto;
+  
+}
+.navigation {
+  display: none;
+}
+.opened{
+  display: block;
+}
+
+iframe {
+  display: block;
+  margin: 1rem auto;
+  max-width: 160rem;
+  width: 100%;
 }
