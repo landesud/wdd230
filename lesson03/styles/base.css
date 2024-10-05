@@ -73,3 +73,7 @@ section .loren {
 p + p {
   margin: 3rem 0;
 }
+a:link{
+  display: block;
+  margin: 1.5rem 0;
+}
