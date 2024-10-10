@@ -1,0 +1,94 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #222;
+  --blue: #14213d;
+  --orange: #fca311;
+  --gray: #e5e5e5;
+  --white: #eee;
+}
+
+html {
+font-size: 62.5%;  
+}
+body{
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  color: #333;
+  background-color: var(--white);
+}
+header {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(14, 14, 15, 0.8), rgba(34, 30, 24, 0.8)), url(../images/tecamach-chamber-of-commerce.webp);
+  background-size: cover;
+  background-position: top;
+  /*background-image: url("images/tecamach-chamber-of-commerce.webp");*/
+}
+header h1 {
+
+  color:  var(--gray);
+  text-align: center;
+  line-height: 1.2;
+  font-size: 5rem;
+}
+header .cta:link, header .cta:visited {
+  display: inline-block;
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  background-color: var(--gray);
+  color: var(--blue);
+  transition: all 0.3s;
+}
+header .cta:hover, header .cta:active {
+  background-color: var(--orange);
+  color: var(--black);
+}
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--black);
+  padding: 1rem 3rem;
+}
+nav a:link, nav a:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--gray);
+  margin: 0 4rem;
+  transition: color 0.3s;
+}
+nav a:hover, nav a:active {
+  color: var(--orange);
+}
+.nav-icon{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-icon a:link, .nav-icon a:visited {
+  margin: 0 1rem;
+}
+.nav-icon img{
+  width: 48px;
+  height: 48px;
+}
+.nav-icon span {
+  color: var(--gray);
+}
+.nav-links {
+  display: inline-block;
+}
