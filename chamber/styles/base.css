@@ -172,6 +172,7 @@ section {
  border-radius: 0.5rem;
  padding: 1.5rem; 
  background-color: var(--gray); 
+ color: var(--black);
 }
 
 hr {
