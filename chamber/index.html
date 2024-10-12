@@ -3,10 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta
-    name="description"
-    content="<meta
-    name="description"
+  <meta name="description"
     content="Explore the Tecamach Chamber of Commerce, your gateway to local business success. Discover our services, events, and community initiatives designed to foster economic growth and collaboration in the State of Mexico. Join us in building a vibrant and prosperous business community">
   <meta name="author" content="Emmanuel Landeros">
   <title>Tecamach Chamber of Commerce Site</title>
@@ -34,6 +31,7 @@
 
 </head>
 <body>
+  <button id="menu">&nbsp;</button>
   <nav>
     <div class="nav-icon">
       <a href="#"><img src="images/favicon/favicon.svg" alt=""></a>
@@ -67,7 +65,7 @@
 
         <div class="row grid">
           <span class="col-1">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="weather-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="var(--orange)" viewBox="0 0 24 24" stroke-width="1.5" stroke="var(--orange)" class="weather-icon">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
           </svg>
         </span>
@@ -88,39 +86,63 @@
     </section>
     <section class="spotlights">
       <h2>Member Spotlights</h2>
+      <hr>
+      <div class="spotlight-cards">
       <div class="spotlight-card">
         <h3>Thankful Transport</h3>
         <p>We get it there for you</p>
-        <span>hello@test.com</span>
-        <span>+555-5555-5555</span>
-        <span>Website</span>
-      </div>
-      <div class="spotlight-card">
-        <h3>Thankful Transport</h3>
-        <p>We get it there for you</p>
-        <span>hello@test.com</span>
-        <span>+555-5555-5555</span>
-        <span>Website</span>
-      </div>
-      <div class="spotlight-card">
-        <h3>Thankful Transport</h3>
-        <p>We get it there for you</p>
-        <span>hello@test.com</span>
-        <span>+555-5555-5555</span>
-        <span>Website</span>
-      </div>
 
+        <div class="spotlight-links">
+        <a href="#">hello@test.com</a>
+        <a href="#">+555-5555-5555</a>
+        <a href="#">Website</a>
+      </div>
+      </div>
+      <div class="spotlight-card">
+        <h3>Thankful Transport</h3>
+        <p>We get it there for you</p>
+        <div class="spotlight-links">
+        <a href="#">hello@test.com</a>
+        <a href="#">+555-5555-5555</a>
+        <a href="#">Website</a>
+        </div>
+      </div>
+      <div class="spotlight-card">
+        <h3>Thankful Transport</h3>
+        <p>We get it there for you</p>
+        <div class="spotlight-links">
+        <a href="#">hello@test.com</a>
+        <a href="#">+555-5555-5555</a>
+        <a href="#">Website</a>
+        </div>
+      </div>
+    </div>
     </section>
   </main>
   <footer>
-    <h2>Tecamach Chamber of Commerce</h2>
-    <address>10 Rue De La Paix, Tecamach, Mexico 99999</address>
-    <span>info@techamber.com</span>
-    <span>+(234) 3453-2345</span>
-    <hr>
-    <small id="footer-copy"></small>
-    <small id="lastModified"></small>
+    <div  id="footer-container">
+    <div class="flex">
+    <div>
+
+      <h2>Tecamach Chamber of Commerce</h2>
+      <address>10 Rue De La Paix, Tecamach, Mexico 99999</address>
+    </div>
+    <div>
+      <span>info@techamber.com</span>
+      <span>+(234) 3453-2345</span>
+    </div>
+  </div>
+  <hr>
+    <div class="footer-bottom">
+      
+      <small id="footer-copy"></small>
+      <small id="footer-myname">Emmanuel Landeros</small>
+      <small id="footer-class">WDD 230 Project</small>
+      <small id="lastModified"></small>
+    </div>
+  </div>
   </footer>
 </body>
 <script src="scripts/getdates.js"></script>
+<script src="scripts/menu-icon.js"></script>
 </html>

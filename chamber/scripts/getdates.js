@@ -20,7 +20,7 @@ const lastModif = formatDateTime(new Date(document.lastModified));
 // First paragraph in the footer
 document.querySelector(
   "#footer-copy"
-).innerHTML = `&copy;${currentYear} - Emmanuel Landeros - Mexico &nbsp; <img width="48" height="48" src="images/mexico-icon.png" alt="mexico" />`;
+).innerHTML = `&copy;${currentYear} - Tecamach Chamber of Commerce`;
 
 // Second paragraph in the footer
 document.querySelector(
