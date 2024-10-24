@@ -1,0 +1,15 @@
+@media screen and (min-width:1366px) {
+  
+  header {
+    background-image: linear-gradient(to right bottom, rgba(14, 14, 15, 0.8), rgba(34, 30, 24, 0.8)), url(../images/wdd230-org-1920.webp);
+  }
+
+}
+
+@media screen and (min-width:1920px) {
+
+  header {
+    background-image: linear-gradient(to right bottom, rgba(14, 14, 15, 0.8), rgba(34, 30, 24, 0.8)), url(../images/wdd230-org.webp);
+  }
+
+}
