@@ -69,6 +69,32 @@ main {
   margin: 2rem auto;
   padding: 2rem;
 }
+#temple{
+  position: relative;
+  width: 100%;
+  background-color: #fca311;
+}
+#temple picture {
+  width: 100%;
+}
+#temple picture * {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+#temple-label {
+  position: absolute;
+  top: 3vw;
+  left: 13vw;
+  padding: 2vw 4vw;
+  font-size: 1rem;
+  border-radius: 100%;  
+  color: white;
+  background-color: #14213d;
+  opacity: 0.75;
+  border: 1px solid black;
+}
+
 main h2 {
   color: var(--black);
   text-align: center;

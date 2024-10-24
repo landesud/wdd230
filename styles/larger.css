@@ -12,6 +12,29 @@
     gap: 1.5rem;
     grid-template-columns: repeat(3, 1fr);
   }
+  #temple {
+    grid-column: 1/-1;
+  }
+  #temple picture {
+    padding: 0 1rem;
+    grid-column: 1/-1;
+  }
+  #temple picture * {
+    display: block;
+    margin: 0 auto;
+  }
+  #temple-label {
+    position: absolute;
+    top: 5vw;
+    left: 15vw;
+    font-size: 1.6rem;
+    padding: 3vw 5vw;
+    border-radius: 100%;  
+    color: white;
+    background-color: #14213d;
+    opacity: 0.75;
+    border: 1px solid black;
+  }
   main h2 {
     width: 100%;
     grid-column: 1/-1;

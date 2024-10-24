@@ -30,7 +30,10 @@
   </head>
   <body>
     <header>
-      <img src="images/profile-pic-128x128.jpg" alt="Profile pic">
+      <picture>
+        <source srcset="images/profile-pic-128x128.webp" type="image/webp">
+        <img src="images/profile-pic-128x128.jpg" alt="Profile pic">
+      </picture>
       <h1>Emmanuel Landeros</h1>
     </header>
     <div id="menu">
@@ -53,6 +56,14 @@
       >
     </nav>
     <main>
+      <div id="temple">
+      <picture>
+        <source media="(max-width:960px)" srcset="images/mexico-city-temple-400px.webp" type="image/webp">
+        <source media="(min-width:960px)" srcset="images/mexico-city-temple-960px.webp" type="image/webp">
+        <img src="images/mexico-city-temple.jpg" alt="Mexico City Temple">
+      </picture>
+      <div id="temple-label">Mexico City Temple</div>
+    </div>
       <h2>WDD 230: Web Frontend Development</h2>
       <section class="card">
         <h3>Learning Activities</h3>
