@@ -80,6 +80,7 @@ nav {
 #menu.open::before {
 	content: "❌";
 }
+
 div.nav-links a:link {
 	display: none;
 }
@@ -95,6 +96,7 @@ div.nav-links.open {
   left: 0;
   width: 100%;
   height: 100vh;
+  z-index: 100;
 }
 
 div.nav-links.open a:link, div.nav-links.open a:visited {
@@ -142,6 +144,7 @@ header .cta:hover, header .cta:active {
 }
 
 /********* Begins Dark Mode Switch *****/
+
 .switch {
   position: absolute;
   display: inline-block;
@@ -201,7 +204,7 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
+
 .slider.round {
   border-radius: 34px;
 }
