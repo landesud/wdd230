@@ -50,7 +50,7 @@
   } 
 
   aside {
-    grid-column: 0/1;
+    grid-column: 1/2;
     border-radius: 1rem;
   }
   #discover-images{
