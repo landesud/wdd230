@@ -35,8 +35,6 @@ body{
   color: #333; 
 }
 
-
-
 nav {
   grid-area: nav;
   display: flex;
@@ -59,6 +57,28 @@ nav a:hover, nav a:active {
 
 /* small view navigation */
 @media screen and (max-width:949px) {
+
+  aside {
+    grid-column: 1/-1;
+    border-radius: 1rem;
+  }
+  #discover-images{
+    grid-column: 1/-1;
+  }
+  #discover-images img{
+    max-width: 90vw;
+    border-radius: 1rem;
+  }
+  #discover-images figure {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  #discover-images figcaption{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: left;
+    text-transform: uppercase;
+  }
 #menu {
 	font-size: 3rem;
 	border: 0;
@@ -241,6 +261,17 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   padding: 2rem;
+}
+
+aside {
+  background-color: #0056b3;
+}
+aside section {
+  margin: 2.5rem 1rem;
+}
+
+main figure {
+  grid-template-columns: 1,2fr;
 }
 
 section {

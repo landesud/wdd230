@@ -48,4 +48,25 @@
   .spotlights {
     grid-column: 1/-1;
   } 
+
+  aside {
+    grid-column: 0/1;
+    border-radius: 1rem;
+  }
+  #discover-images{
+    grid-column: 2/-1;
+  }
+  #discover-images img{
+    max-width: 100%;
+    border-radius: 1rem;
+  }
+  #discover-images figure {
+    margin-bottom: 2.5rem;
+  }
+  #discover-images figcaption{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-align: right;
+    text-transform: uppercase;
+  }
 }
