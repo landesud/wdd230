@@ -10,6 +10,9 @@
   --orange: #fca311;
   --gray: #e5e5e5;
   --white: #eee;
+  --primary-color: #007BFF; 
+  --background-color: #f4f4f9; 
+  --font-family: Arial, sans-serif;
 }
 
 
@@ -413,3 +416,8 @@ footer .footer-bottom{
   align-items: center;
   color: var(--orange);
 }
+
+
+/* Form */
+
+.container { display: flex; flex-wrap: wrap; max-width: 1200px; width: 100%;} form { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); max-width: 600px; width: 100%; margin-right: 20px; margin-bottom: 50px; } label { display: block; margin-bottom: 8px; font-weight: bold; } input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea, select { width: calc(100% - 22px); padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px; } input[type="submit"] { background: var(--primary-color); color: #fff; border: none; border-radius: 5px; padding: 10px; cursor: pointer; font-size: 16px; } input[type="submit"]:hover { background: #0056b3; } .form-group { margin-bottom: 15px; } .form-group:last-of-type { margin-bottom: 0; } .accessibility-hint { font-size: 0.9em; color: #666; } .membership-benefits { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); max-width: 300px; width: 100%; } .membership-benefits h3 { font-size: 18px; margin-top: 0; } .membership-benefits ul { padding-left: 20px; } .membership-benefits ul li { margin-bottom: 10px; }
