@@ -1,0 +1,125 @@
+{
+  "lessons": [
+    {
+    "lesson": "01",
+    "links": [
+      {
+        "url": "lesson01/holygrail.html",
+        "title": "Holy Layout"
+      },
+      {
+        "url": "https://codepen.io/landesud/pen/abgemyd",
+        "title": "JS Pen"
+      }
+    ]
+  },
+  {
+    "lesson": "02",
+    "links": [
+      {
+        "url": "lesson02/design.html",
+        "title": "Design Principles"
+      },
+      {
+        "url": "lesson02/media-query.html",
+        "title": "Media Query"
+      },
+      {
+        "url": "lesson02/design-principles.html",
+        "title": "Design Principles 2"
+      }
+    ]
+  },
+  {
+    "lesson": "03",
+    "links": [
+      {
+        "url": "lesson03/images/w3schools-screenshots.jpg",
+        "title": "CSS Combinator Excercise"
+      },
+      {
+        "url": "https://codepen.io/landesud/pen/qBebxZL",
+        "title": "CSS Pseudo Elements"
+      },
+      {
+        "url": "https://codepen.io/landesud/pen/RwXawdx",
+        "title": "Responsive Menu"
+      },
+      {
+        "url": "lesson03/chamber-site-plan.html",
+        "title": "Chamber Site Plan"
+      }
+    ]
+  },
+  {
+    "lesson": "04",
+    "links": [
+      {
+        "url": "https://codepen.io/landesud/pen/KKOgNXz",
+        "title": "Pseudo-class Fun"
+      }
+    ]
+  },
+  {
+    "lesson": "05",
+    "links": [
+      {
+        "url": "lesson05/bom.html",
+        "title": "BOM"
+      }
+    ]
+  },
+  {
+    "lesson": "06",
+    "links": [
+      {
+        "url": "lesson06/images/landscape-6.webp",
+        "title": "WebP"
+      }
+    ]
+  },
+  {
+    "lesson": "07",
+    "links": [
+      {
+        "url": "lesson07/lazyload.html",
+        "title": "Lazy Load"
+      },
+      {
+        "url": "lesson07/bom/bom.html",
+        "title": "BOM localStorage Example"
+      }
+    ]
+  },
+  {
+    "lesson": "08",
+    "links": [
+      {
+        "url": "lesson08/tablebuild.html",
+        "title": "Table Build"
+      },
+      {
+        "url": "lesson08/form/index.html",
+        "title": "Form Exercise"
+      },
+      {
+        "url": "form.html",
+        "title": "Form Activity"
+      }
+    ]
+  },
+  {
+    "lesson": "09",
+    "links": [
+      {
+        "url": "lesson09/new-ward-members.json",
+        "title": "JSON Example"
+      },
+      {
+        "url": "lesson09/prophets.html",
+        "title": "Prophets JSON Activity"
+      }
+    ]
+  }
+  ]
+}
