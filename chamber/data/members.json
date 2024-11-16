@@ -5,7 +5,7 @@
       "address": "123 Silicon Valley Blvd, San Francisco, CA 94105",
       "phone": "(415) 555-1234",
       "website": "https://www.techinnovators.com",
-      "image": "images/1.jpg",
+      "image": "images/company1.jpg",
       "membership": "Gold",
       "other": "Specializes in AI and machine learning solutions"
     },
@@ -14,7 +14,7 @@
       "address": "456 Eco Park Ave, Portland, OR 97204",
       "phone": "(503) 555-5678",
       "website": "https://www.greenearthsolutions.com",
-      "image": "images/2.jpg",
+      "image": "images/company2.jpg",
       "membership": "Silver",
       "other": "Focuses on sustainable energy and environmental consulting."
     },
@@ -23,7 +23,7 @@
       "address": "789 Foodie Lane, Austin, TX 78701",
       "phone": "(512) 555-8765",
       "website": "https://www.urbaneats.com",
-      "image": "images/3.jpg",
+      "image": "images/company3.jpg",
       "membership": "Bronze",
       "other": "A chain of urban cafes offering organic and locally sourced food."
     },
@@ -32,7 +32,7 @@
       "address": "101 Skyscraper St, New York, NY 10001",
       "phone": "(212) 555-1010",
       "website": "https://www.skylinearchitects.com",
-      "image": "images/4.jpg",
+      "image": "images/company4.jpg",
       "membership": "Gold",
       "other": "Renowned for designing innovative and sustainable skyscrapers."
     },
@@ -41,7 +41,7 @@
       "address": "202 Wellness Way, Miami, FL 33101",
       "phone": "(305) 555-2020",
       "website": "https://www.healthfirstmedical.com",
-      "image": "images/5.jpg",
+      "image": "images/company5.jpg",
       "membership": "Silver",
       "other": "Provides comprehensive healthcare services and telemedicine."
     },
@@ -50,7 +50,7 @@
       "address": "303 Mountain Trail Rd, Denver, CO 80202",
       "phone": "(303) 555-3030",
       "website": "https://www.adventuregear.com",
-      "image": "images/6.jpg",
+      "image": "images/company6.jpg",
       "membership": "Bronze",
       "other": "Sells outdoor and adventure equipment for all types of explorers."
     },
@@ -59,7 +59,7 @@
       "address": "404 Innovation Dr, Los Angeles, CA 90001",
       "phone": "(213) 555-4040",
       "website": "https://www.creativemindsagency.com",
-      "image": "images/7.jpg",
+      "image": "images/company7.jpg",
       "membership": "Gold",
       "other": "A full-service marketing and advertising agency specializing in digital campaigns."
     }
