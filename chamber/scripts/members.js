@@ -26,6 +26,7 @@ const displayMembers = (members) => {
     memberLevel.setAttribute('class', 'memberLevel');
     memberDetails.setAttribute('class', 'memberDetails');
 
+
     memberName.textContent = `Company: ${member.company}`;
     memberPhone.textContent = `Phone: ${member.Phone}`;
     memberAddress.textContent = `Address: ${member.address}`;
