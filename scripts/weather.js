@@ -1,7 +1,7 @@
 const currentTemp = document.querySelector("#idTemp");
 const weatherIcon = document.querySelector("#weather-icon");
 const weatherDesc = document.querySelector("#weather-desc");
-const url = 'http://api.openweathermap.org/data/2.5/weather?q=Tecamac,mx&units=imperial&APPID=26cb9a54253d333c2de21a527a128b2d';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Tecamac,mx&units=imperial&APPID=26cb9a54253d333c2de21a527a128b2d';
 
 function displayResults(data) {
   currentTemp.textContent = `${data.main.temp} F`;
