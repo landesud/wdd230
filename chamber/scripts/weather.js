@@ -12,6 +12,8 @@ const urlForecast = 'https://api.openweathermap.org/data/2.5/forecast?q=Tecamac,
 function displayResults(data) {
   currentTemp.textContent = `${data.main.temp} F`;
   const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+
+  console.log(`https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`);
   let desc =  data.weather[0].description;
   let humidity = data.main.humidity;
   let wSpeed = data.wind.speed;
@@ -36,7 +38,7 @@ async function currentWeather() {
     if (response.ok) {
         const data = await response.json();
         console.log(data);
-        displayResultsForecast(data);
+        displayResults(data);
     } else {
       throw Error(await response.text());
     }
@@ -60,5 +62,5 @@ async function forecastWeather() {
   }
 }
 
-// currentWeather();
+currentWeather();
 forecastWeather();
