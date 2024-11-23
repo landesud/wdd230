@@ -71,13 +71,16 @@
 
         <div class="row grid">
           <span class="col-1">
+            <!--
           <svg xmlns="http://www.w3.org/2000/svg" fill="var(--orange)" viewBox="0 0 24 24" stroke-width="1.5" stroke="var(--orange)" class="weather-icon">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
           </svg>
+          -->
+          <img id="weather-icon" src="" alt="">
         </span>
           <div class="rows-2">
             <span id="wind-temperature" class="col-2">5ºC</span>
-            <span class="col-2 bold">Partly Cloudy</span>
+            <span id="weather-desc" class="col-2 bold">Partly Cloudy</span>
           </div>
         </div>
 
@@ -90,9 +93,20 @@
         <div class="row grid">
           <span class="col-1">Wind Chill:</span> <span id="wind-chill" class="col-2">N/A</span>
         </div>
+
+        <div class="row grid">
+          <span class="col-1">One day:</span> <span id="day1" class="col-2">N/A</span>
+        </div>
+        <div class="row grid">
+          <span class="col-1">Two days:</span> <span id="day2" class="col-2">N/A</span>
+        </div>
+        <div class="row grid">
+          <span class="col-1">Three days:</span> <span id="day3" class="col-2">N/A</span>
+        </div>
       </div>
         
     </section>
+
     <section class="spotlights">
       <h2>Member Spotlights</h2>
       <hr>
@@ -154,6 +168,6 @@
   <script src="scripts/getdates.js"></script>
 <script src="scripts/menu-icon.js"></script>
 <script src="scripts/windchill.js"></script>
-
+<script src="scripts/weather.js"></script>
 </body>
 </html>
