@@ -153,7 +153,7 @@ footer small{
 }
 /**********************
 
-SMALL SCREEN
+MEDIUM SCREEN
 
 **********************/
 
@@ -223,4 +223,34 @@ h1 {
   text-align: center;
 }
 
+}
+
+
+/**********************
+
+SMALL SCREEN
+
+**********************/
+
+
+@media screen and (max-width:430px) {
+
+  header {
+    height: 17vw;
+  }
+  #nav-menu {
+    top: 17vw;
+  }
+  #home-heading {
+    max-height: calc(100vh - 17vw);
+  }
+  #home-cta {
+    width: 80%;
+    font-size: 2rem;
+    top: 15%;
+  }
+  #home-cta a:link {
+  padding: 1.5rem;
+  width: 40vw;
+}
 }
